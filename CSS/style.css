@@ -46,11 +46,19 @@ header p {
 aside ul {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 440px;
+    /*margin-left: 15rem;*/
 }
-
+aside li {
+    border-style: solid;
+    border-width: 1px;
+    list-style-type: none;
+    padding: 0.5rem;
+    margin-left: 7rem;
+    margin-right: 5rem;
+}
 aside a {
-    padding-right: 90px;
+    /*padding-right: 90px;*/
+    margin: 2rem;
     font-size: 30px;
     text-underline-offset: none;
     font-weight: bolder;
@@ -62,4 +70,31 @@ a {
 /*H2*/
 h2 {
     text-decoration: underline;
+}
+
+/* SECTION */
+section {
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding: 2rem;
+}
+/* ARTICLE */
+article {
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding: 2rem;
+    margin-top: 2rem; 
+}
+/* FOOTER */
+footer {
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding: 2rem;
+    margin-top: 2rem;
 }
