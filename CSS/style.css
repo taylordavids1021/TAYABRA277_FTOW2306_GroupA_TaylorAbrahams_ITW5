@@ -19,7 +19,7 @@ header::after {
 header {
     color: white;
     background-color: rgb(15 30 61);
-    padding: 0.5rem;
+    padding: 1rem;
 }
 header p {
     font-size: 2rem;
