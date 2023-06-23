@@ -63,6 +63,10 @@ aside li {
     margin-left: 7rem;
     margin-right: 5rem;
 }
+aside li:hover {
+    border-style: none;
+    background-color: rgb(138 139 139 / 80%);
+}
 aside a {
     /*padding-right: 90px;*/
     margin: 2rem;
@@ -71,6 +75,10 @@ aside a {
     font-weight: bolder;
 }
 /* a */
+a:hover{
+    color: white;
+
+}
 a {
     color: darkgreen;
 }
@@ -80,7 +88,7 @@ h2 {
 }
 
 /* SECTION */
-section {
+.section {
     border-style: solid;
     border-width: 1px;
     margin-right: 5rem;
@@ -104,4 +112,5 @@ footer {
     margin-left: 5rem;
     padding: 2rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
