@@ -78,7 +78,7 @@ aside a {
     font-weight: bolder;
 }
 /* a */
-a:hover{
+aside a:hover{
     color: white;
 
 }
@@ -97,6 +97,15 @@ h2 {
     margin-right: 5rem;
     margin-left: 5rem;
     padding: 2rem;
+}
+/*QUALIFICATION*/
+.quali {
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding: 2rem;
+    margin-top: 2rem; 
 }
 /* ARTICLE */
 article {
