@@ -4,7 +4,6 @@ body {
     background-color: rgb(216, 248, 255);
     font-family: 'Roboto', sans-serif;
     margin: auto;
-    padding: 5px;
 }
 /* HEADER */
 h1 {
@@ -18,16 +17,19 @@ header::after {
     display: table;
 }
 header {
-    background-color: rgb(195, 196, 158);
-    margin: 0;
-    padding: 10px;
+    color: white;
+    background-color: rgb(15 30 61);
+    padding: 1rem;
 }
 header p {
+    font-size: 2rem;
     text-align: center;
     font-weight: bold;
     font-size: large;
     word-spacing: 2px;
     padding-top: 50px;
+    margin-left: 26rem;
+    margin-right: 4rem;
 }
 .icon {
     width: 80px;
@@ -40,6 +42,7 @@ header p {
     display: block;
     margin: 0;
     float: left;
+    margin-left: 4rem;
 }
 /* ASIDE */
 
