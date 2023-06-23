@@ -7,9 +7,9 @@ body {
 }
 /* HEADER */
 h1 {
-    font-size: 80px;
-    text-align: center;
-    margin: 0;
+    font-size: 5rem;
+    text-align: left;
+    margin: auto;
 }
 header::after {
     content: "";
@@ -19,17 +19,21 @@ header::after {
 header {
     color: white;
     background-color: rgb(15 30 61);
-    padding: 1rem;
+    padding: 0.5rem;
 }
 header p {
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     font-size: large;
     word-spacing: 2px;
-    padding-top: 50px;
+    padding-top: 1rem;
     margin-left: 26rem;
     margin-right: 4rem;
+}
+.myinfo p {
+    padding-top: 0.5rem;
+    text-align: left;
 }
 .icon {
     width: 80px;
