@@ -1,0 +1,65 @@
+/* CSS STYLE SHEET*/
+/* BODY */
+body {
+    background-color: rgb(216, 248, 255);
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: 5px;
+}
+/* HEADER */
+h1 {
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+}
+header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+header {
+    background-color: rgb(195, 196, 158);
+    margin: 0;
+    padding: 10px;
+}
+header p {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    word-spacing: 2px;
+    padding-top: 50px;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+}
+.mypic {
+    border-radius: 8px;
+    width: 200px;
+    height: 280px;
+    display: block;
+    margin: 0;
+    float: left;
+}
+/* ASIDE */
+
+aside ul {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 440px;
+}
+
+aside a {
+    padding-right: 90px;
+    font-size: 30px;
+    text-underline-offset: none;
+    font-weight: bolder;
+}
+/* a */
+a {
+    color: darkgreen;
+}
+/*H2*/
+h2 {
+    text-decoration: underline;
+}
